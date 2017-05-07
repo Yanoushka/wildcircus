@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+header {
+    text-align: center;
+    background: url('img/circusgirl.jpg');
+    background-size: cover;
+    color: white;
+ }
+.tete {
+	margin: 100px 0px 0px 0px;
+ }
+.logo {
+    border: 7px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px black; 
+ }
+a {
+	color: white;
+	font-size: 3em;
+
+ }
+ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);  
+ }
+li {
+    display: inline;
+    padding: 0px 40px 0px 40px;
+ }
+body {
+	max-width: 2000px;
+    margin: auto;
+    background-color: #232323;
+    font-family: 'amble-regular', verdana, 'comic sans ms', arial, 'times new roman';
+    background-size: cover;
+ }
+article {
+	margin:0 auto;
+	max-width: 1200px;
+    text-align: center
+ }
+section {
+ 	background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border: 7px solid black;
+ }
+#intro {
+  	max-width: 1200px;
+  	height: 600px;
+  	background: url("img/gotham.jpg");
+  	background-size: cover;
+ 	color: white;
+    margin-top: 50px;
+ }
+#magicien {
+    max-width: 1200px;
+    height: 600px;
+    background: url(img/magician.jpg);
+    background-size: cover;
+    color: white; 
+}
+#tiger {
+    max-width: 1200px;
+    height: 600px;
+    background: url(img/tiger.jpg);
+    background-size: cover;
+    color: white; 
+}
+#acrobat {
+    max-width: 1200px;
+    height: 600px;
+    background: url(img/acrobat.jpg);
+    background-size: cover;
+    color: white; 
+}
+#elephant {
+    max-width: 1200px;
+    height: 600px;
+    background: url(img/elephant.jpg);
+    background-size: cover;
+    color: white; 
+}
+#blocpage {
+    background-image: url("img/circusbackground.jpg");
+    background-position: center;
+}
+.show {
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    font-size: 3em;
+    background: rgba(0,0,0,0.5)
+}
+
+footer {
+    text-align: center;
+    background: url('img/circusgirl.jpg');
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+ }
+ h3 {
+    float: top;
+    color: white;
+    font-size: 1,5em;
+    background: rgba(0,0,0,0.5); 
+ }
+ p {
+    color: rgba(255,255,255,1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    padding: 10px;
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 40px;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    font-size: 40px;
+ }
+ small {
+ 	font-size: 20px;
+ 	opacity: 0;
+
+ }
+span {
+	font-size: 20px;
+	float: right;
+ }
+.show-description p {
+    height: 250px;
+ }
+.show-description small {
+    opacity: 1;
+ } 
+
+ @media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}

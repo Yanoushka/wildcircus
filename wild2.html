@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="wild2.css" />
+        <title>Wild Circus</title>
+    </head>
+    <body>  
+     	<header>
+     	  <div class="tete">
+     		<img class= logo src="img/logowild.png" alt="Logo Wild Circus">
+     	  </div>
+     		   <nav> 
+     		     <ul>
+    			  <li><a href="#intro">Story</a></li>
+     		      <li><a href="#magicien">Shows</a></li>
+     	          <li><a id="tourbook" href="#">Tour Calendar and Booking</a></li>
+     	    	  <li><a id="contacts" href="#">Contacts</a></li>
+     			  <li><a href="http://www.robozzle.com/user.aspx?name=yanoushka">Robozzle</a></li>  
+    			 </ul>
+    			</nav>
+     	</header>
+     	
+     	<section id=blocpage>
+     	 <article>
+         <section id=intro>
+     		<p>Once upon a time...<span class="credit">(Photo : View of the Wild Circus in New York City)</span><br /> <small>The Wild Circus company has been established in 1856 by two brothers, Achille Zavetti and Pipo Zavetti.<br /> At the beginning they started to earn money by doing acrobating shows in the streets of Florencia (Italia). They were so talented that a rich entrepreneur, called Donaldo Trumpetta, offered them the opportunity to find other artists, animals and invested to create a circus. The success story started there.<br />Today, the Wild Circus company is doing tours all over the world for more than 100 years now, and the Zavetti's family is a big part of that success.</small></p>
+     		</section>
+         </article>
+			
+			<div class="show">
+			<h1>The Main Shows</h1>
+       		</div>
+         
+         <article>
+        	<section id="magicien">
+        	<p>Hiro Mazuka's magic performance<br /><small>The highlight of the show has a name : Hiro Mazuka, member of the Wild Circus since 20 years.<br />
+            He became famous after he made disappeared the Liberty Statue in New York ! Come and see what he can do at the show ! And You'll maybe have the privilege to be a part of it</small></p>
+			</section>       
+         </article>
+      
+         <article>
+        	<section id="tiger">
+        	<p>Tiger show<br /><small>A Beautiful show performed by Jeff Steiner and his cat family.<br />
+            He is the man who whistle into tiger's ear, he loves them, they love him and they can do a million stunning tricks for him.</small></p>
+			</section>       
+         </article>
+
+         <article>
+       		<section id="acrobat">
+        	<p>Boyko's Gravity<br /><small>During this show you'll think they are flying or from another dimension. Their name is Boyko and they are coming from Kiev, Ukraine. It seems they don't know fear, you'll be amazed to see their trick.</small></p>
+			</section>     
+        </article>
+
+        <article>
+       		<section id="elephant">
+        	<p>The elephant's soccer game !<br /><small>Two teams of elephant are going to have a crazy soccer game. The team who win will get all the bananas they want.<br /> Trust me, you don't know what elephants can do for bananas..</small></p>
+			</section>     
+        </article>
+  	   <footer>
+  	   	  <section class="pied">
+     		<h3>Wild Circus/Yan Kaletka - 2017.<br /><a href="#">Back to top</a></h3>     
+     		<img class= logo src="img/logowild.png" alt="Logo Wild Circus">	 
+     	  </section>
+  	   </footer>
+  	   </section>
+      <script src="jquery-3.2.1.min.js">
+      	$('section').on('click', function() {
+      		$(this).toggleClass('show-description');
+       });
+      </script>
+
+    </body>
+</html>
